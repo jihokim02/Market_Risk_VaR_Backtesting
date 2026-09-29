@@ -1,6 +1,6 @@
 # Market Risk Modeling: VaR/ES Forecasting and Backtesting of a 30-Stock Portfolio
 
-This project builds three \$500,000 equity portfolios from 30 U.S. stocks across 5 sectors, forecasts their daily market risk with three Value-at-Risk (VaR) and Expected Shortfall (ES) models, and backtests whether the VaR forecasts were accurate.
+This project builds three equity portfolios of USD 500,000 each from 30 U.S. stocks across 5 sectors, forecasts their daily market risk with three Value-at-Risk (VaR) and Expected Shortfall (ES) models, and backtests whether the VaR forecasts were accurate.
 
 The full analysis, code and results are in [`market_risk_project.ipynb`](market_risk_project.ipynb).
 
@@ -13,14 +13,14 @@ The full analysis, code and results are in [`market_risk_project.ipynb`](market_
 
 ## Results
 
-**Performance (Sep 2022 – Sep 2026, initial capital \$500,000)**
+**Performance (Sep 2022 – Sep 2026, initial capital USD 500,000)**
 
-| Portfolio | Final Value | Ann. Return | Ann. Volatility | Sharpe Ratio | Max Drawdown |
+| Portfolio | Final Value (USD) | Ann. Return | Ann. Volatility | Sharpe Ratio | Max Drawdown |
 |---|---|---|---|---|---|
-| Equal Weight | \$1,152,362 | 23.4% | 13.2% | 1.39 | −16.6% |
-| Minimum Variance | \$925,764 | 16.8% | 11.1% | 1.14 | −10.7% |
-| Max Sharpe | \$1,201,883 | 24.7% | 14.1% | 1.39 | −16.0% |
-| SPY (benchmark) | \$1,111,342 | 22.3% | 15.8% | 1.13 | −18.8% |
+| Equal Weight | 1,152,362 | 23.4% | 13.2% | 1.39 | −16.6% |
+| Minimum Variance | 925,764 | 16.8% | 11.1% | 1.14 | −10.7% |
+| Max Sharpe | 1,201,883 | 24.7% | 14.1% | 1.39 | −16.0% |
+| SPY (benchmark) | 1,111,342 | 22.3% | 15.8% | 1.13 | −18.8% |
 
 **VaR backtest (99% 1-day VaR, 751 days, 7.5 breaches expected)**
 
